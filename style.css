@@ -1,14 +1,28 @@
-@media all and (min-width:375px){
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+.boxBox{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .outerBox{
-    width: 500px;
+    width: 800px;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightBox{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+.leftBox{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
 }
