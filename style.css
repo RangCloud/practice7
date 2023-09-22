@@ -10,19 +10,19 @@
     align-items: center;
 }
 .outerBox{
-    width: 800px;
-    height: 400px;
+    width: 1200px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .rightBox{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border: 1px solid black;
 }
 .leftBox{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border: 1px solid black;
 }
