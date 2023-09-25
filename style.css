@@ -13,7 +13,7 @@ body{
     align-items: center;
 }
 .outerBox{
-    width: 1200px;
+    width: 1000px;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -21,26 +21,32 @@ body{
     position: relative;
     background-color: white;
     border-radius: 25px;
+    box-shadow: 0 30px 80px -30px black;
 }
 .rightBox{
-    width: 600px;
+    width: 500px;
+    height: 600px;
+}
+.leftBox{
+    width: 500px;
     height: 600px;
     position: relative;
     overflow: hidden;
 }
-.leftBox{
-    width: 600px;
-    height: 600px;
-}
 #imgBox{
     position: absolute;
+    left: -90px;
+    top: 230px;
+    z-index: 100;
 }
 #imgWoman{
     position: absolute;
+    left: -90px;
     top: 100px;
+    z-index: 20;
 }
 #imgBg{
     position: absolute;
-    left: -495px;
-    top: -250px;
+    left: -585px;
+    top: -260px;
 }
