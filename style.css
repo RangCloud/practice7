@@ -5,6 +5,7 @@
 }
 body{
     background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
 }
 .boxBox{
     height: 100vh;
@@ -22,10 +23,6 @@ body{
     background-color: white;
     border-radius: 25px;
     box-shadow: 0 30px 80px -30px black;
-}
-.rightBox{
-    width: 500px;
-    height: 600px;
 }
 .leftBox{
     width: 500px;
@@ -49,4 +46,8 @@ body{
     position: absolute;
     left: -585px;
     top: -260px;
+}
+.rightBox{
+    width: 500px;
+    height: 600px;
 }
