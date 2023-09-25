@@ -51,7 +51,41 @@ body{
 .rightBox{
     width: 500px;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.qa{
+.quBox{
     width: 400px;
+    position: relative;
+}
+h1{
+    position: absolute;
+    left: 23px;
+    top: -50px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 25px;
+}
+.button{
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: hsl(238, 29%, 16%);
+    font-weight: bold;
+}
+.button:hover{
+    color: hsl(14, 88%, 65%);
+}
+.arrowImg{
+    margin-top: 5px;
+    float: right;
+}
+.introP{
+    display: none;
 }
