@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
 .boxBox{
     height: 100vh;
     display: flex;
@@ -15,14 +18,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    background-color: white;
+    border-radius: 25px;
 }
 .rightBox{
     width: 600px;
     height: 600px;
-    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
 }
 .leftBox{
     width: 600px;
     height: 600px;
-    border: 1px solid black;
+}
+#imgBox{
+    position: absolute;
+}
+#imgWoman{
+    position: absolute;
+    top: 100px;
+}
+#imgBg{
+    position: absolute;
+    left: -495px;
+    top: -250px;
 }
