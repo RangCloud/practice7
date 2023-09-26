@@ -1,8 +1,16 @@
-const buttons = document.querySelector(".button");
-const textP = document.querySelector(".introP");
+const buttons = document.getElementsByClassName("button");
+let i;
 
-buttons.addEventListener("click", slideMenu);
+for(i = 0; i < buttons.length; i++){
+    buttons[i].addEventListener("click", function(){
+        this.classList.toggle("active");
 
-function slideMenu(){
-    textP.style.display = "block";
+        let introP = this.nextElementSibling;
+
+        if(introP.style.display === "block"){
+            introP.style.display = "none";
+        } else {
+            introP.style.display = "block";
+        }
+    });
 }
